@@ -170,7 +170,7 @@ Through this project, I practiced:
 
 ## 👨‍💻 Author
 
-**Manish Kumar Yadav**
+**Manish Kumar**
 
 B.Tech Computer Science Engineering Student | Aspiring Software Engineer | DSA & C++ | AWS & AI/ML Enthusiast
 
