@@ -4,7 +4,13 @@ import numpy as np
 import joblib
 
 # Load the trained model
-model = joblib.load("sales_model.pkl")
+from pathlib import Path
+import joblib
+
+BASE_DIR = Path(__file__).resolve().parent
+MODEL_PATH = BASE_DIR / "sales_model.pkl"
+
+model = joblib.load(MODEL_PATH)
 
 weights = model["weights"]
 bias = model["bias"]
